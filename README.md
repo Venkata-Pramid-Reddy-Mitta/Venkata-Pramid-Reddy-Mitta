@@ -1,6 +1,6 @@
 # Hi, I'm Pramid 👋
 
-**Data Analyst · SQL · Python · Power BI**  
+**Business Data Analyst · SQL · Python · Power BI**  
 MS in Computer & Information Sciences @ Rutgers University–Camden (GPA: 3.90, May 2026) | OPT Available
 
 ---
@@ -28,4 +28,4 @@ MS in Computer & Information Sciences @ Rutgers University–Camden (GPA: 3.90, 
 ---
 
 ## 📫 Connect
-[LinkedIn](https://linkedin.com/in/mittavenkatapramidreddy) · Open to Data Analyst roles anywhere in the US
+[LinkedIn](https://linkedin.com/in/mittavenkatapramidreddy) · Open to Business Data Analyst and Data Analyst roles anywhere in the US
