@@ -1,6 +1,6 @@
 # Hi, I'm Pramid 👋
 
-MS in Computer & Information Sciences @ Rutgers University–Camden (GPA: 3.83, May 2026)  
+MS in Computer & Information Sciences @ Rutgers University–Camden (GPA: 3.90, May 2026)  
 Seeking full-time roles in **Data Analytics · Business Analysis · AI/ML** | OPT Available
 
 ---
