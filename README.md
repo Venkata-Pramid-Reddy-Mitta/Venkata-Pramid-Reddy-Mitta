@@ -3,7 +3,7 @@
 **Business Data Analyst · SQL · Python · Power BI**  
 MS in Computer Science (Scientific Computing) @ Rutgers University–Camden (GPA: 3.90, May 2026) | OPT Available
 
-🌐 **Portfolio:** [venkatapramidreddymitta.github.io](https://venkatapramidreddymitta.github.io)
+🌐 **Portfolio:** [venkata-pramid-reddy-mitta.github.io](https://venkata-pramid-reddy-mitta.github.io)
 
 ---
 
@@ -16,20 +16,20 @@ MS in Computer Science (Scientific Computing) @ Rutgers University–Camden (GPA
 ---
 
 ## 📊 Analytics Projects
-- 📦 [Olist Delivery Performance Analysis](https://github.com/VenkataPramidReddyMitta/Olist-Delivery-Performance-Analysis): 99,441 e-commerce orders; late-delivery hotspots by state and category, and their link to review scores. PostgreSQL + Power BI
-- 🏎️ [F1 Pit Stop Strategy Analysis](https://github.com/VenkataPramidReddyMitta/F1-Pit-Stop-Strategy-Analysis): 10,884 pit stops (2011–2024); pit time vs finishing position and constructor consistency. PostgreSQL + Power BI
-- 🏈 [NFL Performance & Weather Analysis](https://github.com/VenkataPramidReddyMitta/NFL-Performance-Weather-Analysis): 25 seasons of game data joined with Meteostat weather to test a team-performance myth. Python + Pandas
-- 🏠 [Housing Price Prediction with SHAP](https://github.com/VenkataPramidReddyMitta/Housing-Price-Prediction-SHAP): XGBoost, LightGBM and Random Forest compared, 0.93 R², SHAP to explain price drivers
+- 📦 [Olist Delivery Performance Analysis](https://github.com/Venkata-Pramid-Reddy-Mitta/Olist-Delivery-Performance-Analysis): 99,441 e-commerce orders; late-delivery hotspots by state and category, and their link to review scores. PostgreSQL + Power BI
+- 🏎️ [F1 Pit Stop Strategy Analysis](https://github.com/Venkata-Pramid-Reddy-Mitta/F1-Pit-Stop-Strategy-Analysis): 10,884 pit stops (2011–2024); pit time vs finishing position and constructor consistency. PostgreSQL + Power BI
+- 🏈 [NFL Performance & Weather Analysis](https://github.com/Venkata-Pramid-Reddy-Mitta/NFL-Performance-Weather-Analysis): 25 seasons of game data joined with Meteostat weather to test a team-performance myth. Python + Pandas
+- 🏠 [Housing Price Prediction with SHAP](https://github.com/Venkata-Pramid-Reddy-Mitta/Housing-Price-Prediction-SHAP): XGBoost, LightGBM and Random Forest compared, 0.93 R², SHAP to explain price drivers
 
 ## 🧩 Other Projects
-- 🅿️ [Park Company Parking App](https://github.com/VenkataPramidReddyMitta/Park_Company_Parking_App): business requirements and QA testing for a full-stack app
-- 🔐 [PRADA: Sybil-Resilient Model Extraction Detection](https://github.com/VenkataPramidReddyMitta/PRADA-Sybil_Resilient_Model): ML security capstone
-- 🧬 [EvoStruct-Sub Protein Localization](https://github.com/VenkataPramidReddyMitta/evostruct-sub-protein-localization): protein subcellular localization from evolutionary and structural features; Random Forest, SVM, KNN
-- 🐺 [Metaheuristic Algorithm Comparison](https://github.com/VenkataPramidReddyMitta/metaheuristic-optimization): GOA, Wolf Pack, PSO and GA compared on breast cancer classification
-- 🎙️ [Emotion Detection from Speech](https://github.com/VenkataPramidReddyMitta/Emotion-Detection-From-Speech): CNN + MFCC audio classification
-- 🎮 [StudyArena](https://github.com/VenkataPramidReddyMitta/RUC-Hackathon--StudyArena): turns a PDF into quizzes and flashcards, RUC Hackathon
+- 🅿️ [Park Company Parking App](https://github.com/Venkata-Pramid-Reddy-Mitta/Park_Company_Parking_App): business requirements and QA testing for a full-stack app
+- 🔐 [PRADA: Sybil-Resilient Model Extraction Detection](https://github.com/Venkata-Pramid-Reddy-Mitta/PRADA-Sybil_Resilient_Model): ML security capstone
+- 🧬 [EvoStruct-Sub Protein Localization](https://github.com/Venkata-Pramid-Reddy-Mitta/evostruct-sub-protein-localization): protein subcellular localization from evolutionary and structural features; Random Forest, SVM, KNN
+- 🐺 [Metaheuristic Algorithm Comparison](https://github.com/Venkata-Pramid-Reddy-Mitta/metaheuristic-optimization): GOA, Wolf Pack, PSO and GA compared on breast cancer classification
+- 🎙️ [Emotion Detection from Speech](https://github.com/Venkata-Pramid-Reddy-Mitta/Emotion-Detection-From-Speech): CNN + MFCC audio classification
+- 🎮 [StudyArena](https://github.com/Venkata-Pramid-Reddy-Mitta/RUC-Hackathon--StudyArena): turns a PDF into quizzes and flashcards, RUC Hackathon
 
 ---
 
 ## 📫 Connect
-[Portfolio](https://venkatapramidreddymitta.github.io) · [LinkedIn](https://linkedin.com/in/mittavenkatapramidreddy) · Open to Business Data Analyst and Data Analyst roles anywhere in the US
+[Portfolio](https://venkata-pramid-reddy-mitta.github.io) · [LinkedIn](https://linkedin.com/in/mittavenkatapramidreddy) · Open to Business Data Analyst and Data Analyst roles anywhere in the US
