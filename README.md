@@ -89,7 +89,8 @@ Levels answer one question: could I debug this in production at 3am, or have I o
 <br>
 
 ## Building blocks
-
+<div align="center">
+  
 **Delivery and Agile**
 <p>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira">
@@ -120,7 +121,7 @@ Levels answer one question: could I debug this in production at 3am, or have I o
   <img src="https://img.shields.io/badge/Lucidchart-FF6B00?style=flat-square&logo=lucid&logoColor=white" alt="Lucidchart">
   <img src="https://img.shields.io/badge/Visio-3955A3?style=flat-square&logo=microsoft&logoColor=white" alt="Visio">
 </p>
-
+</div>
 <br>
 
 ## How I build
@@ -146,10 +147,11 @@ Levels answer one question: could I debug this in production at 3am, or have I o
 
 ## Education
 
-<p>
+<p align="center">
+  
   <img src="https://img.shields.io/badge/Rutgers%20University-MS%20Computer%20Science-CC0033?style=flat-square&logoColor=white" alt="Rutgers University, MS Computer Science">
   <img src="https://img.shields.io/badge/GPA-3.90%20%2F%204.00-5eead4?style=flat-square&labelColor=0a0f20" alt="GPA 3.90 of 4.00">
-  <img src="https://img.shields.io/badge/Expected-May%202026-8ab4ff?style=flat-square&labelColor=0a0f20" alt="Expected May 2026">
+ 
 </p>
 
 <br>
@@ -157,8 +159,8 @@ Levels answer one question: could I debug this in production at 3am, or have I o
 ## Quick connect
 
 <p align="center">
-  <a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-0a0f20?style=for-the-badge&logo=gmail&logoColor=5eead4" alt="Email"></a>
-  <a href="YOUR-LINKEDIN-URL"><img src="https://img.shields.io/badge/LinkedIn-0a0f20?style=for-the-badge&logo=linkedin&logoColor=8ab4ff" alt="LinkedIn"></a>
+  <a href="mailto:pramidvenkatareddy@mycvcareer.com"><img src="https://img.shields.io/badge/Email-0a0f20?style=for-the-badge&logo=gmail&logoColor=5eead4" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/mittavenkatapramidreddy"><img src="https://img.shields.io/badge/LinkedIn-0a0f20?style=for-the-badge&logo=linkedin&logoColor=8ab4ff" alt="LinkedIn"></a>
   <a href="https://YOUR-GITHUB-HANDLE.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-0a0f20?style=for-the-badge&logo=githubpages&logoColor=a78bfa" alt="Portfolio"></a>
 </p>
 
