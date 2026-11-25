@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Venkata Pramid Reddy Mitta, Technical Project and Program Manager, delivery analytics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f20"/>
+      <stop offset="0.55" stop-color="#111733"/>
+      <stop offset="1" stop-color="#0c1228"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8ab4ff"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#8ab4ff"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="20" fill="url(#dots)"/>
+  <ellipse cx="1050" cy="150" rx="320" ry="240" fill="url(#glow)"/>
+
+  <!-- Left: identity -->
+  <text x="72" y="104" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4" font-weight="600" fill="#5eead4">DELIVERY ANALYTICS &#183; PROGRAM MANAGEMENT</text>
+
+  <text x="70" y="178" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#name)">Venkata Pramid Reddy Mitta</text>
+
+  <text x="72" y="222" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#c7d0e6">Technical Project / Program Manager who builds the measurement,</text>
+  <text x="72" y="250" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#c7d0e6">not just the dashboard.</text>
+
+  <rect x="72" y="268" width="140" height="1.5" fill="url(#rule)"/>
+
+  <!-- Fact pills -->
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
+    <rect x="72" y="292" width="118" height="34" rx="17" fill="#ffffff" opacity="0.06"/>
+    <text x="131" y="314" text-anchor="middle" fill="#dfe6f5">7+ yrs IT PM</text>
+    <rect x="200" y="292" width="150" height="34" rx="17" fill="#ffffff" opacity="0.06"/>
+    <text x="275" y="314" text-anchor="middle" fill="#dfe6f5">MS CS &#183; 3.90 GPA</text>
+    <rect x="360" y="292" width="196" height="34" rx="17" fill="#ffffff" opacity="0.06"/>
+    <text x="458" y="314" text-anchor="middle" fill="#dfe6f5">Banking &amp; Healthcare</text>
+  </g>
+
+  <!-- Right: critical-path DAG motif -->
+  <g stroke-width="2" fill="none" opacity="0.9">
+    <!-- muted edges -->
+    <path d="M900,96 L1000,150" stroke="#39456b"/>
+    <path d="M900,96 L990,232" stroke="#39456b"/>
+    <path d="M1000,150 L1095,110" stroke="#39456b"/>
+    <path d="M990,232 L1090,200" stroke="#39456b"/>
+    <path d="M1095,110 L1180,170" stroke="#39456b"/>
+    <path d="M1090,200 L1180,170" stroke="#39456b"/>
+    <!-- highlighted longest path -->
+    <path d="M900,96 L1000,150 L1090,200 L1180,170" stroke="url(#path)" stroke-width="3.5"/>
+  </g>
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- nodes -->
+    <circle cx="900" cy="96" r="12" fill="#0c1228" stroke="#5eead4" stroke-width="3"/>
+    <circle cx="1000" cy="150" r="12" fill="#0c1228" stroke="#5eead4" stroke-width="3"/>
+    <circle cx="1090" cy="200" r="12" fill="#0c1228" stroke="#5eead4" stroke-width="3"/>
+    <circle cx="1180" cy="170" r="13" fill="#5eead4" stroke="#5eead4" stroke-width="3"/>
+    <circle cx="1095" cy="110" r="10" fill="#0c1228" stroke="#49558a" stroke-width="2.5"/>
+    <circle cx="990" cy="232" r="10" fill="#0c1228" stroke="#49558a" stroke-width="2.5"/>
+  </g>
+
+  <!-- faint gantt bars under the graph -->
+  <g opacity="0.5">
+    <rect x="900" y="276" width="150" height="7" rx="3.5" fill="#2b3660"/>
+    <rect x="900" y="290" width="230" height="7" rx="3.5" fill="#2b3660"/>
+    <rect x="900" y="304" width="110" height="7" rx="3.5" fill="#2b3660"/>
+    <rect x="900" y="276" width="90" height="7" rx="3.5" fill="#5eead4"/>
+    <rect x="990" y="290" width="140" height="7" rx="3.5" fill="#8ab4ff"/>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1278.5" height="358.5" rx="20" fill="none" stroke="#5eead4" stroke-opacity="0.18"/>
+</svg>

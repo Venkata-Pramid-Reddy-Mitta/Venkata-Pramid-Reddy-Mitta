@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Venkata Pramid Reddy Mitta &middot; Delivery Analytics Portfolio</title>
+<style>
+  :root{ --bg:#0a0f20; --panel:#111733; --panel2:#0e1430; --line:#263163;
+    --ink:#e7ecf7; --muted:#9fb0d0; --accent:#5eead4; --blue:#8ab4ff; --violet:#a78bfa; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.55}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 72px}
+  header.hero img{width:100%;border-radius:16px;display:block}
+  .lede{color:var(--muted);font-size:1.05rem;max-width:760px;margin:22px auto 6px;text-align:center}
+  .stat-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:18px 0 8px}
+  .stat{background:var(--panel);border:1px solid #223;border-radius:12px;padding:10px 16px;text-align:center;min-width:120px}
+  .stat b{display:block;font-size:1.3rem;color:var(--accent)}
+  .stat span{font-size:.72rem;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
+  h2{font-size:1.25rem;margin:40px 0 4px}
+  .sub{color:var(--muted);margin:0 0 16px;font-size:.92rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+  .card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid #223;
+    border-radius:14px;padding:18px 18px 16px;display:flex;flex-direction:column}
+  .card-ph{border-style:dashed;opacity:.82}
+  .card header{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .card h3{margin:0;font-size:1.06rem;font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;color:var(--ink)}
+  .tags{display:flex;gap:6px}
+  .tag{font-size:.64rem;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:999px}
+  .tag-hero{background:rgba(94,234,212,.14);color:var(--accent);border:1px solid rgba(94,234,212,.4)}
+  .tag-in{background:rgba(167,139,250,.14);color:var(--violet);border:1px solid rgba(167,139,250,.4)}
+  .tagline{color:var(--muted);margin:10px 0 12px;font-size:.92rem}
+  .imposs{background:rgba(138,180,255,.07);border-left:3px solid var(--blue);
+    border-radius:6px;padding:10px 12px;font-size:.9rem;color:#d4ddf2}
+  .imposs-label{display:block;font-size:.64rem;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);margin-bottom:4px}
+  .measures{margin:12px 0;padding-left:18px;font-size:.88rem;color:#cfd8ee}
+  .measures li{margin:5px 0}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:8px}
+  .chip{font-size:.72rem;background:#172045;border:1px solid #2a356a;
+    color:var(--muted);padding:3px 9px;border-radius:999px}
+  .chip-score{color:var(--accent);border-color:rgba(94,234,212,.4)}
+  table{width:100%;border-collapse:collapse;margin-top:8px;font-size:.9rem}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid #1e2748}
+  th{color:var(--muted);font-weight:600;font-size:.76rem;text-transform:uppercase;letter-spacing:.05em}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  code{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;font-size:.86em}
+  .disc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:8px}
+  .disc div{background:var(--panel);border:1px solid #223;border-radius:12px;padding:14px 16px}
+  .disc h4{margin:0 0 6px;font-size:.95rem;color:var(--accent)}
+  .disc p{margin:0;color:var(--muted);font-size:.86rem}
+  footer{margin-top:48px;text-align:center;color:var(--muted);font-size:.82rem}
+  a{color:var(--blue)}
+</style></head>
+<body><div class="wrap">
+  <header class="hero"><img src="assets/banner.svg" alt="Venkata Pramid Reddy Mitta"></header>
+  <p class="lede">A set of small, offline, deterministic analytics tools for program delivery.
+    Each one measures something a status report structurally cannot, and leads with the number it would rather not publish.</p>
+  <div class="stat-row">
+    <div class="stat"><b>8</b><span>Tools</span></div>
+    <div class="stat"><b>779+</b><span>Tests</span></div>
+    <div class="stat"><b>40</b><span>Decision records</span></div>
+    <div class="stat"><b>100%</b><span>Offline</span></div>
+  </div>
+
+  <h2>The portfolio</h2>
+  <p class="sub">One structural impossibility per tool. Hover numbers are produced by code and checked against the prose on every build.</p>
+  <section class="grid">
+    <article class="card">
+      <header>
+        <h3>sprint-forecast</h3>
+        <div class="tags"><span class="tag tag-hero">hero</span></div>
+      </header>
+      <p class="tagline">Prices a committed delivery date as a probability, not a promise.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>A single committed delivery date cannot state its own probability of being met; only a distribution over the team&#x27;s past throughput can.</div>
+      <ul class="measures"><li>4 of 12 committed dates sat below P50, a coin flip sold as a promise</li><li>P85 covered 82.9% and P95 covered 90.8% on 2000 synthetic teams, a 4.1-point tail optimism</li><li>P95 coverage climbs from 83.8% at four sprints to 94.9% at forty</li></ul>
+      <div class="chips"><span class="chip">94 tests</span><span class="chip">99.5% coverage</span><span class="chip">5 ADRs</span><span class="chip">9 commits</span><span class="chip chip-score">audit 8/10</span></div>
+    </article>
+    <article class="card">
+      <header>
+        <h3>flow-metrics</h3>
+        <div class="tags"></div>
+      </header>
+      <p class="tagline">Finds a slowdown weeks before the average cycle time admits it.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>An average cycle time cannot reveal a slowdown already building, because WIP can climb while the average stays flat.</div>
+      <ul class="measures"><li>WIP broke its band at week 13, the cycle-time average not until week 21, an 8-week lead flat for 6 of them</li><li>the reported average understated eventual cost by 68% at the worst week, 5.1 days reported against 16.1 eventual</li><li>Little&#x27;s Law tracks within 5% in steady state and 57% in the transition, 11x wider</li></ul>
+      <div class="chips"><span class="chip">109 tests</span><span class="chip">100% coverage</span><span class="chip">5 ADRs</span><span class="chip">18 commits</span><span class="chip chip-score">audit 9/10</span></div>
+    </article>
+    <article class="card">
+      <header>
+        <h3>raid-signal</h3>
+        <div class="tags"></div>
+      </header>
+      <p class="tagline">Turns a RAID log into a signal that knows normal churn from trouble.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>A RAID log is a list; a raw open-risk count cannot say normal churn from trouble, because a count has no baseline.</div>
+      <ul class="measures"><li>SPC signalled in week 16, a 4-week lead over the manual escalation in week 20</li><li>the lower control limit clamped in 100% of weeks, blind to improvement</li><li>the 3-sigma breach led the run rules by 5 weeks on this spike</li></ul>
+      <div class="chips"><span class="chip">104 tests</span><span class="chip">100% coverage</span><span class="chip">5 ADRs</span><span class="chip">9 commits</span><span class="chip chip-score">audit 8/10</span></div>
+    </article>
+    <article class="card">
+      <header>
+        <h3>earned-value</h3>
+        <div class="tags"><span class="tag tag-hero">hero</span></div>
+      </header>
+      <p class="tagline">Separates under-budget from behind-schedule before the burn chart can.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>Spend-to-date alone cannot tell under-budget from behind-schedule; they look identical on a burn chart until progress is earned separately.</div>
+      <ul class="measures"><li>14 weeks where spend sat within 5% of budget while SPI was already below 0.95</li><li>worst concealed slip $73,506 at week 22; the program finished $339,975 over budget, 13.6%</li><li>SPI recovers to an exact 1.000 at completion while CPI never recovers, the tool&#x27;s own blind spot</li></ul>
+      <div class="chips"><span class="chip">87 tests</span><span class="chip">99% coverage</span><span class="chip">5 ADRs</span><span class="chip">15 commits</span><span class="chip chip-score">audit 9/10</span></div>
+    </article>
+    <article class="card">
+      <header>
+        <h3>release-readiness</h3>
+        <div class="tags"></div>
+      </header>
+      <p class="tagline">A go/no-go gate that a UAT pass-rate cannot fool.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>A UAT pass-rate cannot tell you a release is safe; it weighs a trivial test like a critical one and is blind to untested critical paths.</div>
+      <ul class="measures"><li>92.0% pass-rate against 74.0% risk-weighted coverage, an 18.0-point gap</li><li>2 of 8 critical requirements undemonstrated, one with no test at all, invisible to the pass-rate</li><li>across 15 nights the pass-rate said go on 13 while the gate said no-go every night</li></ul>
+      <div class="chips"><span class="chip">129 tests</span><span class="chip">100% coverage</span><span class="chip">5 ADRs</span><span class="chip">18 commits</span><span class="chip chip-score">audit 9/10</span></div>
+    </article>
+    <article class="card">
+      <header>
+        <h3>capacity-overlap</h3>
+        <div class="tags"></div>
+      </header>
+      <p class="tagline">Finds the over-allocation a tidy 100% sprint plan hides.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>A resource plan summing to a tidy 100% per person per sprint cannot see over-allocation hidden by tasks overlapping across workstreams; the clash only appears at the day level.</div>
+      <ul class="measures"><li>17.6 hidden person-days of over-allocation across 25 sprint-green pairs, affecting 16 people</li><li>85.4% of the plan&#x27;s over-allocation is invisible at sprint level</li><li>only 1.85 hidden person-days survive a quarter-FTE tolerance, the tool&#x27;s own weakness stated first</li></ul>
+      <div class="chips"><span class="chip">124 tests</span><span class="chip">100% coverage</span><span class="chip">5 ADRs</span><span class="chip">10 commits</span><span class="chip chip-score">audit 9/10</span></div>
+    </article>
+    <article class="card card-ph">
+      <header>
+        <h3>critical-path-risk</h3>
+        <div class="tags"><span class="tag tag-hero">hero</span><span class="tag tag-in">in progress</span></div>
+      </header>
+      <p class="tagline">Ranks tasks by downstream blast radius, not by today&#x27;s critical path.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>A Gantt/dependency list shows today&#x27;s critical path but cannot tell you which single upstream slip does the most downstream damage; that needs propagating a delay through the whole dependency graph.</div>
+      <ul class="measures"><li>PLACEHOLDER: the non-obvious task whose one-week slip delays the program by N weeks against the obvious critical-path task</li><li>PLACEHOLDER: headline measurement 2</li><li>PLACEHOLDER: headline measurement 3</li></ul>
+      <div class="chips"><span class="chip">5 ADRs</span></div>
+    </article>
+    <article class="card">
+      <header>
+        <h3>status-audit</h3>
+        <div class="tags"></div>
+      </header>
+      <p class="tagline">Recomputes a RAG status so a green-over-red rollup cannot hide.</p>
+      <div class="imposs"><span class="imposs-label">The impossibility</span>A rolled-up program RAG status cannot be trusted by reading it; a human summary can be green outside and red underneath. Catching that needs an independent recomputation from objective signals.</div>
+      <ul class="measures"><li>26 program-weeks reported Green while the signals computed Amber or Red, 16 of them Green over Red</li><li>48 rollup integrity violations, 17 surviving the lenient majority rule</li><li>a robust floor of 26 that inflates to 63 only when the amber SPI line is tightened</li></ul>
+      <div class="chips"><span class="chip">132 tests</span><span class="chip">100% line and branch coverage</span><span class="chip">5 ADRs</span><span class="chip">13 commits</span><span class="chip chip-score">audit 9/10</span></div>
+    </article></section>
+
+  <h2>Bottlenecks at a glance</h2>
+  <p class="sub">No two tools share a core technique. Tests and coverage are measured in CI across three Python versions.</p>
+  <table><thead><tr><th>Repository</th><th>Core technique</th><th class="num">Tests</th><th class="num">Coverage</th></tr></thead>
+  <tbody><tr><td><code>sprint-forecast</code></td><td>Monte Carlo throughput bootstrap</td><td class='num'>94</td><td class='num'>99.5%</td></tr><tr><td><code>flow-metrics</code></td><td>Little&#x27;s Law flow reconstruction from state transitions</td><td class='num'>109</td><td class='num'>100%</td></tr><tr><td><code>raid-signal</code></td><td>Statistical process control on a count time series</td><td class='num'>104</td><td class='num'>100%</td></tr><tr><td><code>earned-value</code></td><td>Earned value decomposition (PV/EV/AC into CPI, SPI, EAC)</td><td class='num'>87</td><td class='num'>99%</td></tr><tr><td><code>release-readiness</code></td><td>Risk-weighted coverage over a requirement/test matrix</td><td class='num'>129</td><td class='num'>100%</td></tr><tr><td><code>capacity-overlap</code></td><td>Interval/calendar overlap detection</td><td class='num'>124</td><td class='num'>100%</td></tr><tr><td><code>critical-path-risk</code></td><td>DAG longest-path and per-node slip sensitivity</td><td class='num'>pending</td><td class='num'>pending</td></tr><tr><td><code>status-audit</code></td><td>Rule-based RAG reconciliation plus signed confession lag</td><td class='num'>132</td><td class='num'>100% line and branch</td></tr></tbody></table>
+
+  <h2>What they share</h2>
+  <div class="disc">
+    <div><h4>The uncomfortable number leads</h4><p>Every README opens with what the tool cannot do, or the case where it loses.</p></div>
+    <div><h4>Numbers are machine-checked</h4><p>A checker fails the build when a figure in the prose and the measured value disagree.</p></div>
+    <div><h4>Offline and reproducible</h4><p>No keys, no network at runtime. A seeded fixture reproduces every number with one command.</p></div>
+  </div>
+
+  <footer>Venkata Pramid Reddy Mitta &middot; Technical Project / Program Manager, delivery analytics &middot; Camden, NJ<br>
+  Replace the handle placeholder and host this page with GitHub Pages.</footer>
+</div></body></html>
