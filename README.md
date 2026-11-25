@@ -161,7 +161,7 @@ Levels answer one question: could I debug this in production at 3am, or have I o
 <p align="center">
   <a href="mailto:pramidvenkatareddy@mycvcareer.com"><img src="https://img.shields.io/badge/Email-0a0f20?style=for-the-badge&logo=gmail&logoColor=5eead4" alt="Email"></a>
   <a href="https://www.linkedin.com/in/mittavenkatapramidreddy"><img src="https://img.shields.io/badge/LinkedIn-0a0f20?style=for-the-badge&logo=linkedin&logoColor=8ab4ff" alt="LinkedIn"></a>
-  <a href="https://YOUR-GITHUB-HANDLE.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-0a0f20?style=for-the-badge&logo=githubpages&logoColor=a78bfa" alt="Portfolio"></a>
+ 
 </p>
 
 <p align="center"><sub>Based in Camden, NJ. Open to Technical Program Manager and delivery-analytics roles.</sub></p>
