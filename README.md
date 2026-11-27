@@ -1,12 +1,3 @@
-<!--
-  Profile README for the GitHub account page.
-  This file lives in a repository named exactly after your GitHub handle
-  (for example  YOUR-GITHUB-HANDLE/YOUR-GITHUB-HANDLE ), which GitHub renders
-  on your profile automatically.
-  Replace every YOUR-... placeholder before pushing. The banner is committed
-  at assets/banner.svg so it renders with no external host.
--->
-
 <p align="center">
   <img src="assets/banner.svg" alt="Venkata Pramid Reddy Mitta, Technical Project and Program Manager, delivery analytics" width="100%">
 </p>
@@ -16,7 +7,7 @@
   <img src="https://img.shields.io/badge/Focus-Delivery%20Analytics-8ab4ff?style=flat-square&labelColor=0a0f20" alt="Focus, Delivery Analytics">
   <img src="https://img.shields.io/badge/MS%20Computer%20Science-3.90%20GPA-a78bfa?style=flat-square&labelColor=0a0f20" alt="MS Computer Science, 3.90 GPA">
   <img src="https://img.shields.io/badge/Based%20in-Camden%2C%20NJ-c7d0e6?style=flat-square&labelColor=0a0f20" alt="Based in Camden, NJ">
-  <img src="https://komarev.com/ghpvc/?username=YOUR-GITHUB-HANDLE&style=flat-square&color=5eead4&label=Profile+views" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=Venkata-Pramid-Reddy-Mitta&style=flat-square&color=5eead4&label=Profile+views" alt="Profile views">
 </p>
 
 <!-- Stat cards: every number here is a resume fact, not a repository metric. -->
