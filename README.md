@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Program%20Management-7%2B%20years-5eead4?style=flat-square&labelColor=0a0f20" alt="Program Management, 7+ years">
   <img src="https://img.shields.io/badge/Focus-Delivery%20Analytics-8ab4ff?style=flat-square&labelColor=0a0f20" alt="Focus, Delivery Analytics">
   <img src="https://img.shields.io/badge/MS%20Computer%20Science-3.90%20GPA-a78bfa?style=flat-square&labelColor=0a0f20" alt="MS Computer Science, 3.90 GPA">
-  <img src="https://img.shields.io/badge/Based%20in-Camden%2C%20NJ-c7d0e6?style=flat-square&labelColor=0a0f20" alt="Based in UNITED STATES">
+  <img src="https://img.shields.io/badge/Based%20in-UNITED STATES-c7d0e6?style=flat-square&labelColor=0a0f20" alt="Based in UNITED STATES">
   <img src="https://komarev.com/ghpvc/?username=Venkata-Pramid-Reddy-Mitta&style=flat-square&color=5eead4&label=Profile+views" alt="Profile views">
 </p>
 
